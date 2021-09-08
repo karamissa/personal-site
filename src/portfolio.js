@@ -10,7 +10,8 @@ const about = {
   role: 'Front End Engineer',
   description:
     'I like to work on projects with pleasant user experiences and neat simple designs! You can check out my project below.',
-  resume: 'https://example.com',
+  resume:
+    'https://drive.google.com/uc?id=1CgNTFGqWcRuiXFsBpzkYBII10hypNFBH&export=download',
   social: {
     linkedin: 'https://www.linkedin.com/in/karam-issa-dev/',
     github: 'https://github.com/karamissa',
