@@ -34,7 +34,7 @@ const projects = [
     description:
       'A music recommendation app that takes advantage of the Spotify API to search for artists/tracks and fetch recommendations. Especially useful for those without a Spotify subscription',
     stack: ['React', 'Node.js'],
-    sourceCode: 'https://https://github.com/karamissa/freshr',
+    sourceCode: 'https://github.com/karamissa/freshr',
     livePreview: 'https://freshr-music.herokuapp.com/',
   },
 ]
