@@ -1,48 +1,40 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://karamissa.github.io',
+  title: 'KI.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
+  name: 'Karam Issa',
   role: 'Front End Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'I like to work on projects with pleasant user experiences and neat simple designs! You can check out my project below.',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/karam-issa-dev/',
+    github: 'https://github.com/karamissa',
   },
 }
 
 const projects = [
-  // projects can be added an removed
+  // projects can be added and removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Etch A Sketch',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A really simple page where you can draw on a canvas of squres and mess around with colors to great abstract art',
+    stack: ['HTML', 'CSS', 'Javascript'],
+    sourceCode: 'https://github.com/karamissa/etch-a-sketch',
+    livePreview: 'https://karamissa.github.io/etch-a-sketch/',
   },
   {
-    name: 'Project 2',
+    name: 'Freshr',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A music recommendation app that takes advantage of the Spotify API to search for artists/tracks and fetch recommendations. Especially useful for those without a Spotify subscription',
+    stack: ['React', 'Node.js'],
+    sourceCode: 'https://https://github.com/karamissa/freshr',
+    livePreview: 'https://freshr-music.herokuapp.com/',
   },
 ]
 
@@ -52,20 +44,20 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'React',
+  'Next',
+  'Node.js',
+  'Restful APIs',
+  'SASS',
+  'CSS Libraries',
+  'SQL',
+  'NoSQL Databases',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'karamissa79@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
